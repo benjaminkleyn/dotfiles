@@ -1,12 +1,8 @@
-
 [general]
-
 import = [
-"~/.config/alacritty/colors.toml",
+    "~/.config/alacritty/colors.toml",
 ]
 
-# [terminal]
-# shell = "/usr/bin/zsh"
 [terminal.shell]
 program = "tmux"
 
@@ -59,8 +55,3 @@ blinking = "Never"
 
 [mouse]
 hide_when_typing = true
-
-[keyboard]
-bindings = [
-    { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
-]
