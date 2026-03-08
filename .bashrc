@@ -57,4 +57,3 @@ command -v eza &> /dev/null 2>&1 && alias ls=eza && alias tree='eza --tree'
 alias l='ls -lF'
 alias ll='ls -alF'
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.local/bin:$PATH"

@@ -10,15 +10,6 @@ set cindent
 set cursorline
 set termguicolors
 set colorcolumn=80
-
-call plug#begin()
-Plug 'itchyny/lightline.vim'
-Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-call plug#end()
-
 set noshowmode
 set laststatus=2
-let g:lightline = {'colorscheme': 'catppuccin_mocha'}
-colorscheme catppuccin_mocha
-
 finish
