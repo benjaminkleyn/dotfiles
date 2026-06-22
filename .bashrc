@@ -9,5 +9,3 @@ if [ -d "$HOME/.bashrc.d" ]; then
         [ -r "$config" ] && source "$config"
     done
 fi
-
-source "$HOME/.cf/cf.sh"
