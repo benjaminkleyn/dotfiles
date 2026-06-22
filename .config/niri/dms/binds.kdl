@@ -1,6 +1,0 @@
-binds {
-    // Application Launchers
-    Mod+Semicolon hotkey-overlay-title="Application Launcher" {
-        spawn "dms" "ipc" "call" "spotlight" "toggle";
-    }
-}
